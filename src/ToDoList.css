@@ -1,0 +1,50 @@
+body{
+    background:white;
+}
+input {
+    height:30px;
+    width:160px;
+    /* border:1px solid transparent; */
+    border-bottom:2px solid black;
+}
+input:focus{
+    outline: none;
+}
+.main_div{
+    margin:20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.center_div Button {
+    background-color:#00e1ff;
+    color: white;
+}
+.center_div Button:hover {
+    background-color:green;
+    color:red;
+}
+.center_div{
+    border:1px solid black;
+    width: 300px;
+    height:450px;
+    background-color:#ee39ee;
+}
+.row {
+    display:flex;
+    word-wrap: break-word;
+    
+}
+.row li {
+    display: flex;
+    justify-content:space-between;
+    overflow:auto; 
+    border:1px solid black;
+    list-style:none;
+    width:220px;
+    background-color:white;
+
+}
